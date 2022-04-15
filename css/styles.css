@@ -1,9 +1,16 @@
 body{
     text-align: center;
     margin: 0;
+    font-family: 'Merriweather', serif;
+    -webkit-font-smoothing: antialiased;
 }
 
-h1,h2{
+h1{
+    font-size: 2.5rem;
+    color: #D2FAFB;
+    font-family: 'Sacramento', cursive;
+}
+h2{
     color: #D2FAFB;
 }
 
@@ -20,11 +27,22 @@ h5{
 .section-heading{
     margin: 30px;
 }
+
+.icon-group{
+    margin: 20px auto 30px;
+}
+
+.icon-link{
+    color: #575555;
+    text-decoration: none;
+    margin: 10px;
+}
+
 /* title */
 
 #title .container-fluid{
     padding: 1% 10% 7%;
-    height: 100vh;
+    height: 100%;
 }
 
 .nav-image{
@@ -34,7 +52,7 @@ h5{
 }
 
 .navbar{
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 }
 
 .title-image{
@@ -45,9 +63,18 @@ h5{
     margin-bottom: 88px;
 }
 
-.title-box{
-    margin: 60% auto;
+.title-row{
+    position: relative;
+    margin: 30% auto;
     text-align: center;
+}
+
+@media (max-width: 1000px){
+    .title-row{
+        position: relative;
+        margin: 60% auto 40%;
+        text-align: center;
+    }
 }
 
 /* profile */
@@ -58,11 +85,14 @@ h5{
 .Profile-Image{
     width: 66%;
 }
-.profile-icon{
-    margin: 10px;
-}
-.profile-icon-group{
-    margin: 20px auto 30px;
+
+@media (min-width: 1000px){
+    .Profile-Image{
+        width: 33%;
+    }
+    .profile-text{
+        text-align: left;
+    }
 }
 
 /* programmer */
@@ -97,3 +127,16 @@ h5{
 }
 
 /* contact-me */
+.Steve-Jobs-quotation{
+    margin: 5%;
+    font-size: 2rem;
+    font-family: 'Square Peg', cursive;
+}
+
+.cmbtn{
+    margin: 15px;
+}
+
+.copyright{
+    margin-top: 10%;
+}

@@ -11,8 +11,13 @@
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/92a475e19e.js" crossorigin="anonymous"></script>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Montserrat:wght@900&family=Sacramento&family=Square+Peg&display=swap" rel="stylesheet">
     <title>Junyu (Tim) Yao</title>
   </head>
 
@@ -26,7 +31,7 @@
     <section id = "title">
       <div class="container-fluid">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #232323;">
           <a class="navbar-brand" href="#">
             <img class="nav-image d-inline-block align-text-top" src="image/timsImage.png" alt="Tim's icon">
             Junyu (Tim) Yao
@@ -37,21 +42,21 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#title">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link scrollLink" href="#programmer" >Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link scrollLink" href="#content-creator">Pricing</a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="title-box">
-          <h1 class="title-heading">Hi, I'm Tim Yao</h1>
+        <div class="title-row">
+          <div class="col-lg-12"><h1 class="title-heading">Hi, I'm Tim Yao</h1></div>
+          <div class="col-lg-12"><p>A Computer Science student, programmer and content-creator</p></div>
           <!-- <img class="title-image" src="/image/Rookie1.png" alt=""> -->
-          <p>A Computer Science student, programmer and content-creator</p>
         </div>
       </div>
 
@@ -60,18 +65,30 @@
 
     <section id = "profile">
       <div class="container-fluid">
-        <img class="Profile-Image" src="image/timsImage.png" alt="Profile Image">
-        <div class="profile-icon-group">
-          <i class="profile-icon fa-brands fa-instagram fa-xl"></i>
-          <i class="profile-icon fa-brands fa-youtube fa-xl"></i>
-          <i class="profile-icon fa-brands fa-linkedin fa-xl"></i>
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="Profile-Image" src="image/timsImage.png" alt="Profile Image">
+            <div class="icon-group">
+              <a href="https://www.instagram.com/yjytimmm_21/" class="icon-link" target="_blank">
+                <i class="profile-icon fa-brands fa-instagram fa-xl"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UC9kCc8BtgMi9NnovEoh5PzQ" class="icon-link" target="_blank">
+                <i class="profile-icon fa-brands fa-youtube fa-xl"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/junyuyao-tim/" class="icon-link" target="_blank">
+                <i class="profile-icon fa-brands fa-linkedin fa-xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="profile-text">I am a computer science student with a decent knowledge of front-end software, web, and mobile apps development. 
+              Also, I have a lot of back-end experience with different algorithms and SQL databases.
+              I enjoyed exploring the technology universe. 
+              I will continue my adventure as I know learning is an ongoing process, and it never ends. <br>
+              (Oh! One more thing I should mention, I don't eat mushrooms)
+            </p>
+          </div>
         </div>
-        <p>I am a computer science student with a decent knowledge of front-end software, web, and mobile apps development. 
-          Also, I have a lot of back-end experience with different algorithms and SQL databases.
-          I enjoyed exploring the technology universe. 
-          I will continue my adventure as I know learning is an ongoing process, and it never ends. <br>
-          (Oh! One more thing I should mention, I don't eat mushrooms)
-        </p>
       </div>
     </section>
 
@@ -136,23 +153,27 @@
     <section id = "content-creator">
       <div class="container-fluid">
         <h2 class="section-heading">A "Rookie" Content Creator</h2>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="image/Photography.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Photography</h5>
-              </div>
+            <div class="carousel-item active" data-bs-interval="5000">
+              <a href="https://www.instagram.com/yjytimmms/" target="_blank"> 
+                <img src="image/Photography.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h5>Photography</h5>
+                </div>
+              </a>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="image/Youtube.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption">
-                <h5>Videographer</h5>
-              </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="https://www.youtube.com/channel/UC9kCc8BtgMi9NnovEoh5PzQ" target="_blank">
+                <img src="image/Youtube.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h5>Videographer</h5>
+                </div>
+              </a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -170,12 +191,22 @@
 
     <section id="contact-me">
       <div class="container-fluid">
-        <p class="Steve-Jobs-quotation">"Stay hungry, stay foolish. —— Steve Jobs"</p>
+        <p class="Steve-Jobs-quotation">"Stay hungry, stay foolish." <br> — Steve Jobs</p>
         <!-- 虚心若谷，求知若愚。-- 史蒂夫·乔布斯 -->
         <h2>Get In Touch</h2>
-        <br>
-        <br>
-        <a class="btn" href="mailto:yjy197@outlook.com">CONTACT ME</a>
+        <a class=" cmbtn btn btn-outline-info" href="mailto:yjy197@outlook.com">CONTACT ME</a>
+        <div class="icon-group">
+          <a href="https://www.instagram.com/yjytimmm_21/" class="icon-link" target="_blank">
+            <i class="profile-icon fa-brands fa-instagram fa-xl"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UC9kCc8BtgMi9NnovEoh5PzQ" class="icon-link" target="_blank">
+            <i class="profile-icon fa-brands fa-youtube fa-xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/junyuyao-tim/" class="icon-link" target="_blank">
+            <i class="profile-icon fa-brands fa-linkedin fa-xl"></i>
+          </a>
+        </div>
+        <p class="copyright">© 2022 Junyu Yao (Tim)</p>
       </div>
     </section>
   </body>
