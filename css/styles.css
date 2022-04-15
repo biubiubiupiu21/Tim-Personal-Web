@@ -66,10 +66,25 @@ h5{
 }
 
 /* programmer */
+#programmer p,h3{
+    color: #575555;
+}
+
+.skills-col{
+    margin: 20px auto;
+}
+
+
 
 /* content-creator */
 #content-creator .container-fluid{
     padding: 7% 3%;
+    color: #575555;
+    background-color: white;
+}
+
+#content-creator h2{
+    color: #575555;
 }
 
 .carousel-inner{
@@ -80,3 +95,5 @@ h5{
     top: 0;
     bottom: auto;
 }
+
+/* contact-me */
