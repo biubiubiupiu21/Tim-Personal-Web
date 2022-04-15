@@ -7,6 +7,10 @@ h1,h2{
     color: #D2FAFB;
 }
 
+h5{
+    font-size: 1.5rem;
+}
+
 .container-fluid{
     padding: 7% 15%;
     color: #99A8B2;
@@ -67,6 +71,7 @@ h1,h2{
 #content-creator .container-fluid{
     padding: 7% 3%;
 }
+
 .carousel-inner{
     padding: 7% 15%;
 }
