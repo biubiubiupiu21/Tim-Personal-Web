@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #D2FAFB;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #D2FAFB;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+    color: #99A8B2;
+    background-color: #232323;
+}
+
+.section-heading{
+    margin: 30px;
+}
+
+/* top-container */
+
+.nav-image{
+    margin: 0px 20px;
+    width: 30px;
+    height: 30px;
+}
