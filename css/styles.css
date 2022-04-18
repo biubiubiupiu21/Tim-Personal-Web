@@ -2,11 +2,10 @@ body{
     text-align: center;
     margin: 0;
     font-family: 'Merriweather', serif;
-    -webkit-font-smoothing: antialiased;
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2.rem;
     font-weight: 666;
     color: #D2FAFB;
     font-family: 'Sacramento', cursive;
