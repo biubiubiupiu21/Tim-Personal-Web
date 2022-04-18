@@ -7,15 +7,22 @@ body{
 
 h1{
     font-size: 2.5rem;
+    font-weight: 666;
     color: #D2FAFB;
     font-family: 'Sacramento', cursive;
 }
 h2{
     color: #D2FAFB;
+    font-weight: 600;
 }
 
 h5{
     font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
 }
 
 .container-fluid{
@@ -55,10 +62,6 @@ h5{
     padding-bottom: 0%;
 }
 
-.title-image{
-    width: 100%;
-}
-
 .title-heading{
     margin-bottom: 88px;
 }
@@ -82,6 +85,12 @@ h5{
     color: #575555;
     background-color: white;
 }
+
+#profile h2{
+    margin-bottom: 66px;
+    color: #575555;
+}
+
 .Profile-Image{
     width: 66%;
 }
@@ -100,8 +109,21 @@ h5{
     color: #575555;
 }
 
+#programmer a{
+    color: #D2FAFB;
+}
+
+#programmer a:hover{
+    color: #6c8e8f;
+}
+
 .skills-col{
     margin: 20px auto;
+}
+
+.btn-learn-more{
+    position: relative;
+    left: 40%;
 }
 
 

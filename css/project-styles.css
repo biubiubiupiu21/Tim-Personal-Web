@@ -6,12 +6,13 @@ body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #D2FAFB;
     font-family: 'Sacramento', cursive;
 }
 h2{
     color: #D2FAFB;
+    font-weight: 600;
 }
 
 h5{
@@ -19,19 +20,42 @@ h5{
 }
 
 .container-fluid{
-    padding: 7% 15%;
+    padding: 1% 10% 7%;
     color: #99A8B2;
-    background-color: #232323;
+    height: 100%;
+    background-color: #353941;
 }
 
 .section-heading{
     margin: 30px;
 }
 
-/* top-container */
+/* title */
 
 .nav-image{
     margin: 0px 20px;
     width: 30px;
     height: 30px;
+}
+
+.navbar{
+    padding-bottom: 0%;
+}
+
+/* .title-heading{
+    margin-bottom: 88px;
+} */
+
+.title-row{
+    position: relative;
+    margin: 30% auto;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .title-row{
+        position: relative;
+        margin: 60% auto 40%;
+        text-align: center;
+    }
 }
