@@ -15,7 +15,7 @@ h2{
     font-weight: 600;
 }
 
-h5{
+h3,h5{
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -131,6 +131,18 @@ a{
 
 #content-creator h2{
     color: #575555;
+}
+
+#content-creator a{
+    color: #575555;
+}
+
+#content-creator a:hover{
+    color: black;
+}
+
+#content-carousel{
+    margin-bottom: 50px;
 }
 
 .carousel-inner{
