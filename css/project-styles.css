@@ -16,7 +16,7 @@ h2{
 }
 
 h5{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .container-fluid{
@@ -30,6 +30,22 @@ h5{
     margin: 30px;
 }
 
+.icon-group{
+    margin: 20px auto 30px;
+}
+
+.icon-link{
+    color: #575555;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn{
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+}
 /* title */
 
 .nav-image{
@@ -42,20 +58,35 @@ h5{
     padding-bottom: 0%;
 }
 
-/* .title-heading{
-    margin-bottom: 88px;
-} */
+.title-heading{
+    margin-bottom: 66px;
+}
 
 .title-row{
     position: relative;
-    margin: 30% auto;
+    margin: 10% auto;
     text-align: center;
 }
 
 @media (max-width: 1000px){
     .title-row{
         position: relative;
-        margin: 60% auto 40%;
+        margin: 33% auto 40%;
         text-align: center;
     }
+}
+
+/* contact-me */
+.Steve-Jobs-quotation{
+    margin: 5%;
+    font-size: 2rem;
+    font-family: 'Square Peg', cursive;
+}
+
+.cmbtn{
+    margin: 15px;
+}
+
+.copyright{
+    margin-top: 10%;
 }
