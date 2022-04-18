@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.rem;
     font-weight: 666;
     color: #D2FAFB;
     font-family: 'Sacramento', cursive;
@@ -118,11 +118,6 @@ a{
 
 .skills-col{
     margin: 20px auto;
-}
-
-.btn-learn-more{
-    position: relative;
-    left: 40%;
 }
 
 
