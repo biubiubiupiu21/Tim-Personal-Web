@@ -40,11 +40,10 @@ h5{
     margin: 10px;
 }
 
-.btn{
-    margin: 20px;
-}
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 /* title */
 
@@ -75,6 +74,18 @@ ul{
         text-align: center;
     }
 }
+
+.btn{
+    color: #99A8B2;
+    text-decoration: none;
+}
+
+.projectText{
+    text-align: left;
+}
+
+
+
 
 /* contact-me */
 .Steve-Jobs-quotation{

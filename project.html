@@ -58,7 +58,7 @@
                     </button>
                     <div class="collapse" id="project-list">
                         <div class="project-button-group">
-                            <h5>Python</h5>
+                            <button><h5>Python</h5></button>
                             <h5>HTML</h5>
                             <h5>Java</h5>
                             <h5>SwiftUI</h5>
@@ -69,14 +69,37 @@
                     <div class="project-button-group">
                         <h4>Projects</h4>
                         <hr>
-                        <h5>Python</h5>
-                        <h5>HTML</h5>
-                        <h5>Java</h5>
-                        <h5>SwiftUI</h5>
+                        <ul>
+                            <li>
+                                <button type="button" class="btn btn-link" onclick="projectButton('python')">Python</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link" >HTML</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link" >SQL</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link" >Java</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <p>Python is my favorite coding language</p>
+                    <p class="projectText python">I have learned Python systematically and applied it in several class projects as well as my internship. 
+                        Throughout my studies, I had an idea to build a software for my dad. 
+                        He is a clothing manufacturer, so I decided to design an inventory management software.
+                        After consulting with my father, based on the real scenario, I created several personas, and according to their problems and requirements, I identified the issues, and set those as the requirements that main features needed to address. 
+                    </p>
+                </div>
+                <div class="col-lg-9">
+                    <p class="projectText HTML">
+                        I learned HTML back in High School. However, I have not developed any websites since I explored other programming software in college.
+                        After graduating from college, I had the idea of building a personal website.
+                        So I studied more about web development on my own, such as Bootstrap, JavaScript, Node.js and Express.js.
+                        Then I developed the site you are browsing now. 
+                        I'm also putting all the code for this site on my <a href="#">GitHub</a> page.
+                    </p>
                 </div>
             </div>
         </div>
@@ -101,6 +124,9 @@
           <p class="copyright">© 2022 Junyu Yao (Tim)</p>
         </div>
       </section>
+    
 
+
+    <script src="JavaScript/project.js"></script>
   </body>
 </html>
