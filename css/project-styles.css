@@ -19,6 +19,11 @@ h5{
     font-size: 1rem;
 }
 
+.imageFooter{
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
 .container-fluid{
     padding: 1% 10% 7%;
     color: #99A8B2;
@@ -80,12 +85,19 @@ ul{
     text-decoration: none;
 }
 
+.collapsebutton{
+    margin: 20px;
+}
+
+/* contect */
+
 .projectText{
     text-align: left;
 }
 
-
-
+.codeImage{
+    width: 90%;
+}
 
 /* contact-me */
 .Steve-Jobs-quotation{
