@@ -116,9 +116,19 @@ a{
     color: #6c8e8f;
 }
 
-.skills-col{
-    margin: 20px auto;
+.progress-row .skills-col{
+    margin: 50px auto;
 }
+
+.progress{
+    margin: 10px;
+    height: 1rem;
+}
+
+.progress-bar{
+    color: black;
+}
+
 
 
 
