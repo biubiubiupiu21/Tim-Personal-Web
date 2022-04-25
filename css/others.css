@@ -1,0 +1,122 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 2.rem;
+    font-weight: 666;
+    color: #D2FAFB;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #D2FAFB;
+    font-weight: 600;
+}
+
+h3,h5{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+    color: #99A8B2;
+    background-color: #353941;
+}
+
+.section-heading{
+    margin: 30px;
+}
+
+.icon-group{
+    margin: 20px auto 30px;
+}
+
+.icon-link{
+    color: #575555;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.img{
+    width: 100%;
+}
+
+/* title */
+#title .container-fluid{
+    padding: 1% 15%;
+    color: #99A8B2;
+    background-color: #232323;
+}
+
+.nav-image{
+    margin: 0px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar{
+    padding-bottom: 0%;
+}
+
+.title-heading{
+    margin-bottom: 66px;
+}
+
+.title-row{
+    position: relative;
+    margin: 10% auto;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .title-row{
+        position: relative;
+        margin: 33% auto 40%;
+        text-align: center;
+    }
+}
+
+/* showroom */
+.showroomImage{
+    width: 100%;
+}
+
+.showroomRow{
+    overflow: hidden;
+    margin: 2% auto;
+}
+
+.showroomRow img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.showroomRow:hover img {
+    transform: scale(1.2);
+}
+
+.showroomCol{
+    margin: 5% auto;
+}
+
+/* contact-me */
+.Steve-Jobs-quotation{
+    margin: 5%;
+    font-size: 2rem;
+    font-family: 'Square Peg', cursive;
+}
+
+.cmbtn{
+    margin: 15px;
+}
+
+.copyright{
+    margin-top: 10%;
+}

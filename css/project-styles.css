@@ -25,9 +25,8 @@ h5{
 }
 
 .container-fluid{
-    padding: 1% 10% 7%;
+    padding: 7% 15%;
     color: #99A8B2;
-    height: 100%;
     background-color: #353941;
 }
 
@@ -47,6 +46,11 @@ ul{
     padding: 0;
 }
 /* title */
+#title .container-fluid{
+    padding: 1% 15%;
+    color: #99A8B2;
+    background-color: #232323;
+}
 
 .nav-image{
     margin: 0px 20px;
