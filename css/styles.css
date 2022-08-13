@@ -30,6 +30,16 @@ a{
     background-color: #232323;
 }
 
+.hideme{
+    opacity:0;
+}
+
+@media (min-width: 1000px){
+    .container-fluid{
+        padding: 7% 20%;
+    }
+}
+
 .section-heading{
     margin: 30px;
 }
@@ -91,12 +101,12 @@ a{
 }
 
 .Profile-Image{
-    width: 66%;
+    width: 88%;
 }
 
 @media (min-width: 1000px){
     .Profile-Image{
-        width: 33%;
+        width: 45%;
     }
     .profile-text{
         text-align: left;
