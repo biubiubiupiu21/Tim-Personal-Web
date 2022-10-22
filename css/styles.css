@@ -12,6 +12,8 @@ h1{
 }
 h2{
     color: #D2FAFB;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
     font-weight: 600;
 }
 
